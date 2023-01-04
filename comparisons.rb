@@ -114,9 +114,13 @@ puts loves_to_play && loves_treats
 puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-puts 
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && age < 1
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
+# The final line of code resulted in an output of "false". This is because the code will print whether the
+# dog loves to play and is also a puppy. The dog does love to play but it is not a puppy as it is 1
+# year old. Because both variable are not "true" it has to be "false"
