@@ -1,4 +1,5 @@
-```
+
+
 number = 7
 
 if number % 2 == 0
@@ -6,4 +7,3 @@ if number % 2 == 0
 else
     puts "odd"
 end
-```
